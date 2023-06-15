@@ -63,10 +63,12 @@ const MyForm = (props) => {
     return (
         <Form>
             <FormGroup>
-                <Label for="name">
+                <Label for="name"
+                >
                     İsim Soyisim
 
                     <Input
+                        data-cy="isim-soyisim"
                         id="name"
                         name="name"
                         placeholder="İsim Soyisim giriniz"
